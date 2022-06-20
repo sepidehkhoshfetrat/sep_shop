@@ -1,15 +1,16 @@
 # E-shop
 
-## Installation Guide
+## Installation Guide with Docker
 
 1. clone this repo to your local machine
 1. copy `.example.env` to `.env` file
 1. add your database credentials
-1. run `composer install`
-1. run `npm install && npm run dev`
-1. run `php artisan key:generate`
-1. run `php artisan ecommerce:install`
-1. credentials to access admin panel (email: `admin@admin.com`, password: `password`)
+1. run 'docker-compose up -d' 
+1. then run `docker exec -it eshop_laravel bash`
+2. run `php artisan key:generate`
+3. run `php artisan migrate`
+4. run `php artisan ecommerce:install`
+5. credentials to access admin panel (email: `admin@admin.com`, password: `password`)
 
 -   Home Page
 
