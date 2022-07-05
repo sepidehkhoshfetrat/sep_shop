@@ -65,12 +65,7 @@ services:
     volumes:
       - ./docker/data/databases:/var/lib/mysql
     environment:
-      MYSQL_DATABASE: 'eshop'
-      MYSQL_USER: 'eshop'
-      MYSQL_PASSWORD: '12345678'
-      MYSQL_ROOT_PASSWORD: '12345678'      
-#     environment:
-#       MYSQL_ROOT_PASSWORD: 123456789
-#       MYSQL_DATABASE: '${DB_DATABASE}'
-#       MYSQL_USER: '${DB_USERNAME}'
-#       MYSQL_PASSWORD: '${DB_PASSWORD}'
+      MYSQL_USER: eshop_user
+      MYSQL_PASSWORD: 123456
+      MYSQL_ROOT_PASSWORD: 123456789
+      MYSQL_DATABASE: eshop
