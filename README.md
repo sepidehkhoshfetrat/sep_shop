@@ -5,7 +5,7 @@
 1. clone this repo to your local machine
 1. copy `.example.env` to `.env` file
 1. add your database credentials
-1. run 'docker-compose up -d' 
+1. run `docker-compose up -d` 
 1. then run `docker exec -it eshop_laravel bash`
 2. run `php artisan key:generate`
 3. run `php artisan migrate`
