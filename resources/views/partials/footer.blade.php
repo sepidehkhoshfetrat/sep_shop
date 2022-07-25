@@ -8,16 +8,16 @@
                 </div>
                 <div class="col-md-4">
                     <h3>
-                        به فروشگاه اینترنتی سپیده خوش آمدید
+                        SEPIDE E-shop website
                     </h3>
-                    <p>فروشگاه اینترنتی </p>
+                    <p>Welcome to SEPIDE Eshop </p>
                 </div>
                 <div class="col-md-4">
                     <h3>
                         Contact:
                     </h3>
                     <p>Phone: +249126545060</p>
-                    <p>Email: mohammedomer789@gmail.com</p>
+                    <p>Email: sepidekhoshfetrat@gmail.com</p>
                     <p>Website: <a href="https://sepideh.com">Personal Website</a></p>
                     <p>Github: <a href="https://github.com/sepidehkhoshfetrat">@sepidehkhoshfetrat</a></p>
                     <p>Twitter: <a href="https://twitter.com/sepidehkhoshfetrat">@sepidehkhoshfetrat</a></p>
